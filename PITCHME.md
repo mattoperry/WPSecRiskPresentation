@@ -75,7 +75,7 @@ passwords? authentication? 2fa?
 
 ---
 
-@quote[the forecasting and evaluation of financial risks together with the identification of procedures to avoid or minimize their impact]
+@quote[the forecasting and evaluation of risks together with the identification of procedures to avoid or minimize their impact]
 
 ---
 
