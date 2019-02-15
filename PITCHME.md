@@ -92,23 +92,28 @@ _fear of everthing == fear of nothing_
 
 <span style="font-size:300pt;">RISK</span>
 
-<span style="font-size:12pt;">risk</span>
+<span style="font-size:18pt;">risk</span>
 
 ---
 
-what this talk is:
-
-- definitions: types of threats
-- risk analysis: assess and define
-- practical steps: build your emergency toolkit
-- some tales from VIP
+### risk management & WordPress
 
 ---
 
-what this talk is not:
-- a technical deep-dive into application security
-- a survey of tools
-- a list of tips and tricks
+### 1 forecast / evaluate WordPress risks
+### @css[ fragment ](2 build a response plan)
+
+---
+
+### what this talk is not:
+
+- a technical deep-dive into security
+- a list of tools 
+- a list of tips/tricks/etc.
+
+---
+
+## parade of horribles
 
 ---
 
