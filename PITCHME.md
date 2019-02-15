@@ -21,15 +21,15 @@
 
 ### Our client Family
 
-@css[ fragment ](##Media
+@css[ fragment ](## Media
 
 CBS / NBC / Meredith / NewsCorp / USAT / Postmedia / ESPN / Mother Jones / Think Progress / Grist / DFM)
 
-@css[ fragment ](##Enterprise
+@css[ fragment ](## Enterprise
 
 CapGemini / CreditKarma / Santander / Alaska Airlines / Nielsen)
 
-@css[ fragment ](##Technology:  
+@css[ fragment ](## Technology:  
 
 Facebook / Microsoft / Tinder / AirBnB /)
 
