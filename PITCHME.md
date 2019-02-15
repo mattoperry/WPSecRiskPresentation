@@ -61,7 +61,7 @@ passwords? authentication? 2fa?
 
 @css[ fragment ](hosting/hardware/networking etc?)
 
-@css[ fragment ](defense against external threats?)
+@css[ fragment ](external/automated threats)
 
 @css[ fragment ](human procedures?)
 
@@ -115,21 +115,31 @@ _fear of everthing == fear of nothing_
 
 ---
 
+### forecasting risks
+
+---
+
 ## parade of horribles
 
 ---
 
-authenticaion:  verifying identity
+### authenticaion
 
 ---
 
-passwords / sso / 2fa
+@css[ fragment ]( verifying identity )
 
-(/wp-admin, wp-json)
+@css[ fragment ]( passwords / 2fa / sso / oAuth)
+
+@css[ fragment ]( /wp-admin, /wp-json )
 
 ---
 
-2fa
+### over-permissioning
+
+---
+
+### old code
 
 ---
 
@@ -139,149 +149,196 @@ updates:  old  = possibly insecure
 
 ---
 
-autoupdates
+### bad code
 
 ---
 
-plugins and security:
+core
 
-how active is the plugin?
-
-how capable and responsive is the author?
+@css[ fragment ]( plugins / themes )
 
 ---
 
-mechanisms of evil
+### flavors of bad code
 
 ---
 
 SQL injection
 
----
+@css[ fragment ]( XSS )
 
-XSS
+@css[ fragment ]( poor performance )
 
----
-
-abuse vectors
+@css[ fragment ]( excessive surface area )
 
 ---
 
-learning to attack = learning to defend 
+### learning more
 
-where to learn more
+@css[ fragment ]( learning to attack = learning to defend )
 
----
+@css[ fragment ]( ONSWAP )
 
-hosting / hardware / networking
-
----
-
-what to look for
+@css[ fragment ]( VIP )
 
 ---
 
-cetifications
-
-recent versions of underlying software (PHP, nginx/apache etc.)
+### hosting/hardware/networking
 
 ---
 
-external threats:
+cetifications/ask your host
 
-DDOS / abusive crawling
-
----
-
-dual responsibility: you / provider
-
-proxy or wall between you and the world
-
-network-level measures
-
-___
-
-how does this plugin actually work?
+@css[ fragment ]( updated underlying stack -- PHP, nginx/apache ... )
 
 ---
 
-list of security plugins
+### external threats
 
 ---
 
-humans
+DDOS (targeted, random)
 
-generous, good-natured, concientous
-
-greedy, evil, sloppy
+@css[ fragment ]( proxies/firewalls/hosting providers )
 
 ---
 
-"human engineering"
+### broken human proccesses
 
-(impersonation fraud)
+---
+
+people are oten:  generous, good-natured, careful
+
+@css[ fragment ]( people are sometimes:  greedy, evil, careless )
+
+---
+
+### flavors of broken processes
 
 ---
 
 leaving secret stuff laying around
 
----
-
-authentication / updates / bad code / hosting & external attacks / humans
+@css[ fragment ]( human engineering / unvalidated communication / phishing )
 
 ---
 
-many things to worry about, limited amount of time to worry
+## forecasting risks
+## @css[ fragment ]( evaluating risks )
 
 ---
 
-risk analysis
+organizing and characterizing risks
 
 ---
 
-defintion:  evaluation of risks to determine their severity (liklihood of a given event and consequences if it happens)
+### impact
 
-goal:  informed decision making, clear lines of responsibility
+@css[ fragment ]( what exactly happens when things go wrong? )
 
----
+@css[ fragment ]( what's the worst case scenario? )
 
-[a few more slides about risk assessment in general]
+@css[ fragment ]( sources:  experience, advice, research )
 
----
+@css[ fragment ]( it's okay not to know! )
 
-what is the level of risk?  high / uncertain / low
-
----
-
-organizing risk
+@css[ fragment ]( goal: determine rough relative severity )
 
 ---
 
-demo: risk matrix 
+### likelihood
+
+@css[ fragment ]( some events are orders of magnitude more likely than others )
+
+@css[ fragment ]( sources: experience, advice, research )
+
+@css[ fragment ]( nature of the client and project )
+
+@css[ fragment ]( goal: determine rough relative liklihood )
 
 ---
 
-who is responsibile for mitigating the risk?
+### picking a scale
+
+@css[ fragment ]( binary? other numeric score? )
 
 ---
 
-when a 3rd party is responsible:
-
-- policies
-- points of contact
-- what if
+### risk assessment matrix
 
 ---
 
-when you are responsible:
+<img src="assets/images/matrix1.png">
+
+---
+
+## example: average VIP client
+
+---
+
+large number of diverse and sensitive clients
+ 
+very active and well-resrouced review/security/updates
+
+dedicated systems and security team
+
+control of our own datacenters and network 
+
+---
+
+<img src="assets/images/matrix2.png">
+
+---
+
+<img src="assets/images/matrix3.png">
+
+---
+
+## actionability
+
+---
+
+<img src="assets/images/matrix3.png">
+
+---
+
+## severe, likely, actionable  
+
+---
+
+# tiers
+
+1:  identity, human processes
+@css[ fragment ]( 2:  code and updates ... actionable, variable severity, but well covered)
+
+@css[ fragment ]( 3:  network/hardware, external threats ... even if severe, less likley and delegated)
+
+---
+
+## 2 building a response plan
+
+---
+
+### ownership
+
 - set your own policy
 - dependency awareness (list of plugins / themes / tools)
-- what if
+
+---
+
+example: VIP
+
+---
+
+## mitigating risk
+
+---
+
+## plan for things to go wrong
 
 ---
 
 what if
-- plan for things to go wrong
 - roles and actions scenarios
 - emergency vs. routine communication
 - keeping clients / stakeholders informed
