@@ -1,13 +1,14 @@
 **Hello!**
 
----
+___
+
 Matt Perry
 
 WordPress Engineer
 
 VIP
 
----
+___
 
 part of the Automattic family
 
@@ -46,10 +47,16 @@ hosting (hardware/networking etc?)
 defense against external threats?
 
 human procedures?
+
 ___
 
+
+
 confusion
+
 ___
+
+
 
 what this talk is:
 
@@ -57,70 +64,101 @@ what this talk is:
 - risk analysis: assess and define
 - practical steps: build your emergency toolkit
 - some tales from VIP
+
 ___
+
 
 what this talk is not:
 - a technical deep-dive into application security
 - a survey of tools
 - a list of tips and tricks
+
 ___
 
+
 authenticaion:  verifying identity
+
 ___
+
 
 passwords / sso / 2fa
 
 (/wp-admin, wp-json)
+
 ___
 
+
 2fa
+
 ___
+
 
 updates:  old  = possibly insecure
 
 [stat about the install base of older versions of WordPress before security releases]
----
-autoupdates
+
 ___
+
+
+autoupdates
+
+___
+
 
 plugins and security:
 
 how active is the plugin?
 
 how capable and responsive is the author?
+
 ___
+
 
 mechanisms of evil
+
 ___
+
 
 SQL injection
+
 ___
+
 
 XSS
+
 ___
 
+
 abuse vectors
+
 ___
+
 
 learning to attack = learning to defend 
 
 where to learn more
+
 ___
 
+
 hosting / hardware / networking
+
 ___
 
 what to look for
+
 ___
 
 cetifications
 
 recent versions of underlying software (PHP, nginx/apache etc.)
+
 ___
 
 external threats:
 
 DDOS / abusive crawling
+
 ___
 
 dual responsibility: you / provider
@@ -128,12 +166,16 @@ dual responsibility: you / provider
 proxy or wall between you and the world
 
 network-level measures
+
 ___
 
 how does this plugin actually work?
+
 ___
 
+
 list of security plugins
+
 ___
 
 humans
@@ -141,39 +183,51 @@ humans
 generous, good-natured, concientous
 
 greedy, evil, sloppy
+
 ___
 
 "human engineering"
 
 (impersonation fraud)
+
 ___
 
 leaving secret stuff laying around
+
 ___
 
 authentication / updates / bad code / hosting & external attacks / humans
+
 ___
 
+
 many things to worry about, limited amount of time to worry
+
 ___
 
 risk analysis
+
 ___
+
 defintion:  evaluation of risks to determine their severity (liklihood of a given event and consequences if it happens)
 
 goal:  informed decision making, clear lines of responsibility
+
 ___
 
 [a few more slides about risk assessment in general]
 ___
 
 what is the level of risk?  high / uncertain / low
+
 ___
 
 organizing risk
+
 ___
 
 demo: risk matrix 
+
 ___
 
 who is responsibile for mitigating the risk?
@@ -216,6 +270,7 @@ data loss
 backup policy
 
 communication
+
 ___
 
 emergency toolkit:
@@ -228,9 +283,11 @@ emergency toolkit:
 ___
 
 example:  VIP
+
 ___
 
 VIP threat matrix and responsibilities
+
 ___
 
 VIP policies:  outage / response mode
@@ -254,4 +311,3 @@ possible next steps:
 ___
 
 VIP is awesome // hiring
-___
