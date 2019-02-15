@@ -90,9 +90,9 @@ _fear of everthing == fear of nothing_
 
 ---
 
-# RISK
+# @css[ bigly ](RISK)
 
-###### risk
+###### @css[ notbigly ](risk)
 
 ---
 
