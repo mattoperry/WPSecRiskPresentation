@@ -100,7 +100,7 @@ _fear of everthing == fear of nothing_
 
 ---
 
-### 1 forecast / evaluate WordPress risks
+### 1 understand WordPress risks
 ### @css[ fragment ](2 build a response plan)
 
 ---
