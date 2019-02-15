@@ -159,7 +159,7 @@ core
 
 ---
 
-### flavors of bad code
+### possible symptoms of bad code
 
 ---
 
