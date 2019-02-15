@@ -189,7 +189,7 @@ SQL injection
 
 ---
 
-transparency
+transparency & policy
 
 @css[ fragment ]( updated underlying stack -- PHP, nginx/apache ... )
 
@@ -199,7 +199,7 @@ transparency
 
 ---
 
-DDOS (targeted, random)
+DOS
 
 @css[ fragment ]( proxies/firewalls/hosting providers )
 
