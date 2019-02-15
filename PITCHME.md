@@ -67,7 +67,9 @@ passwords? authentication? 2fa?
 
 ---
 
-### fear of everthing == fear of nothing
+### fear of everthing
+
+### fear of nothing
 
 ---
 
