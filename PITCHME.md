@@ -1,4 +1,8 @@
-## Hello
+## Hello!
+
+### WordPress security: a risk assessment approach
+
+#### Matt Perry, WordPress VIP
 
 ---
 
@@ -6,7 +10,7 @@ Matt Perry
 
 WordPress Engineer
 
-VIP
+WordPress VIP
 
 ---
 
