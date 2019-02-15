@@ -23,29 +23,33 @@
 
 ---
 
-## Media
+## media
 
 CBS / NBC / Meredith / NewsCorp / USAT / Postmedia / ESPN / Mother Jones / Think Progress / Grist / DFM
 
 ---
 
-## Enterprise
+## enterprise
 
 CapGemini / CreditKarma / Santander / Alaska Airlines / Nielsen
 
 ---
 
-## Technology
+## technology
 
 Facebook / Microsoft / Tinder / AirBnB
 
 ---
 
-scaling WordPress **securely**
+## free clients to publish
 
 ---
 
-what does **security** mean?
+## scaling | security
+ 
+---
+
+#security
 
 ---
 
