@@ -13,6 +13,7 @@
 ## What is VIP?
 
 @css[ fragment ](WordPress in the enterprise)
+
 @css[ fragment ](an Automattic company)
 
 
