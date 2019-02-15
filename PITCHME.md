@@ -75,11 +75,11 @@ passwords? authentication? 2fa?
 
 ---
 
-@quote( the forecasting and evaluation of financial risks together with the identification of procedures to avoid or minimize their impact )
+@quote[the forecasting and evaluation of financial risks together with the identification of procedures to avoid or minimize their impact]
 
 ---
 
-@quote( One of the main cyber-risks is to think they don’t exist. The other is to try to treat all potential risks )
+@quote[One of the main cyber-risks is to think they don’t exist. The other is to try to treat all potential risks]
 
 ---
 
