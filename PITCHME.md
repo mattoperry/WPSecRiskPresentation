@@ -108,7 +108,9 @@ _fear of everthing == fear of nothing_
 ### not covered
 
 @css[ fragment ](a technical deep-dive into security )
+
 @css[ fragment ](a list of tools )
+
 @css[ fragment ](a list of tips/tricks/etc )
 
 ---
