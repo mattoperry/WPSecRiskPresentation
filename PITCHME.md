@@ -53,13 +53,13 @@ Facebook / Microsoft / Tinder / AirBnB
 
 ---
 
-@css[ fragment ](passwords? authentication? 2fa?)
+passwords? authentication? 2fa?
 
 @css[ fragment ](updates?)
 
 @css[ fragment ](bad code?)
 
-@css[ fragment ](hosting (hardware/networking etc?)
+@css[ fragment ](hosting/hardware/networking etc?)
 
 @css[ fragment ](defense against external threats?)
 
