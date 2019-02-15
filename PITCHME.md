@@ -90,9 +90,9 @@ _fear of everthing == fear of nothing_
 
 ---
 
-<span class="bigly">RISK</span>
+<span style="font-size=400pt;">RISK</span>
 
-<span class="bigly">risk</span>
+<span style="font-size=12pt;">risk</span>
 
 ---
 
