@@ -1,7 +1,7 @@
 .bigly {
-	font-size: 200pt;
+	font-size: 200pt!important;
 }
 
 .notbigly {
-	font-size: 8pt;
+	font-size: 8pt!important;
 }
