@@ -67,9 +67,7 @@ passwords? authentication? 2fa?
 
 ---
 
-# confusion
-
-_fear of everthing == fear of nothing_
+### fear of everthing == fear of nothing
 
 ---
 
