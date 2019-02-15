@@ -17,10 +17,9 @@
 
 @css[ fragment ](an Automattic company)
 
-
 ---
 
-## Our client Family
+## who we work with
 
 ---
 
