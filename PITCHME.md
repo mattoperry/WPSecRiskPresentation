@@ -1,4 +1,3 @@
-## Hello!
 
 ### WordPress security: a risk assessment approach
 
@@ -6,17 +5,16 @@
 
 ---
 
-Matt Perry
+### Hello!
 
-WordPress Engineer
-
-WordPress VIP
-
+##Matt Perry | Lead Engineer | VIP
 ---
 
-part of the Automattic family
+## What is VIP?
 
-WordPress in the enterprise
+@css[ fragment ](WordPress in the enterprise)
+@css[ fragment ](an Automattic company)
+
 
 ---
 
