@@ -5,9 +5,10 @@
 
 ---
 
-### Hello!
+# Hello!
 
-## Matt Perry | Lead Engineer | VIP
+### Matt Perry | Lead Engineer
+### WordPress VIP
 ---
 
 ### What is VIP?
@@ -19,20 +20,25 @@
 
 ---
 
-### Our client Family
+## Our client Family
 
-@css[ fragment ](## Media
+---
 
-CBS / NBC / Meredith / NewsCorp / USAT / Postmedia / ESPN / Mother Jones / Think Progress / Grist / DFM)
+## Media
 
-@css[ fragment ](## Enterprise
+CBS / NBC / Meredith / NewsCorp / USAT / Postmedia / ESPN / Mother Jones / Think Progress / Grist / DFM
 
-CapGemini / CreditKarma / Santander / Alaska Airlines / Nielsen)
+---
 
-@css[ fragment ](## Technology:  
+## Enterprise
 
-Facebook / Microsoft / Tinder / AirBnB /)
+CapGemini / CreditKarma / Santander / Alaska Airlines / Nielsen
 
+---
+
+## Technology
+
+Facebook / Microsoft / Tinder / AirBnB
 
 ---
 
