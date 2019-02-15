@@ -175,9 +175,11 @@ SQL injection
 
 ### learning more
 
+@css[ fragment ]( mechanics )
+
 @css[ fragment ]( learning to attack = learning to defend )
 
-@css[ fragment ]( ONSWAP )
+@css[ fragment ]( OWASP )
 
 @css[ fragment ]( VIP )
 
@@ -187,7 +189,7 @@ SQL injection
 
 ---
 
-cetifications/ask your host
+transparency
 
 @css[ fragment ]( updated underlying stack -- PHP, nginx/apache ... )
 
