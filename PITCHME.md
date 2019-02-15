@@ -105,11 +105,11 @@ _fear of everthing == fear of nothing_
 
 ---
 
-### what this talk is not:
+### not covered
 
-- a technical deep-dive into security
-- a list of tools 
-- a list of tips/tricks/etc.
+@css[ fragment ](- a technical deep-dive into security )
+@css[ fragment ](- a list of tools )
+@css[ fragment ](- a list of tips/tricks/etc )
 
 ---
 
