@@ -71,7 +71,7 @@ passwords? authentication? 2fa?
 
 ---
 
-# risk management
+## risk management
 
 ---
 
@@ -79,7 +79,11 @@ passwords? authentication? 2fa?
 
 ---
 
-@quote[One of the main cyber-risks is to think they don’t exist. The other is to try to treat all potential risks]
+### forecasting / evaluation = risk assesmnet
+
+---
+
+@quote[One of the main cyber-risks is to think they don’t exist. The other is to try to treat all potential risks](Stéphane Nappo)
 
 ---
 
