@@ -69,6 +69,8 @@ passwords? authentication? 2fa?
 
 # confusion
 
+_fear of everthing == fear of nothing_
+
 ---
 
 ## risk management
@@ -85,6 +87,12 @@ passwords? authentication? 2fa?
 ---
 
 @quote[One of the main cyber-risks is to think they don’t exist. The other is to try to treat all potential risks](Stéphane Nappo)
+
+---
+
+# RISK
+
+###### risk
 
 ---
 
