@@ -90,9 +90,9 @@ _fear of everthing == fear of nothing_
 
 ---
 
-@css[ bigly ](RISK)
+<span class="bigly">RISK</span>
 
-@css[ notbigly ](risk)
+<span class="bigly">risk</span>
 
 ---
 
