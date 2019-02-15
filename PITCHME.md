@@ -127,7 +127,7 @@ passwords? authentication? 2fa?
 
 ---
 
-@css[ fragment ]( verifying identity )
+verifying identity
 
 @css[ fragment ]( passwords / 2fa / sso / oAuth)
 
