@@ -67,7 +67,7 @@ passwords? authentication? 2fa?
 
 ---
 
-### fear of everthing
+### fear of everything
 
 ### fear of nothing
 
@@ -82,7 +82,7 @@ passwords? authentication? 2fa?
 ---
 
 ### forecasting / evaluation
-### @css[ fragment ](risk assesmnet)
+### @css[ fragment ](risk assessment)
 
 ---
 
@@ -90,17 +90,11 @@ passwords? authentication? 2fa?
 
 ---
 
-<span style="font-size:300pt;">RISK</span>
-
-<span style="font-size:18pt;">risk</span>
-
----
-
 ### risk management & WordPress
 
 ---
 
-### 1 understand WordPress risks
+### 1 assess risks
 ### @css[ fragment ](2 build a response plan)
 
 ---
@@ -115,7 +109,7 @@ passwords? authentication? 2fa?
 
 ---
 
-### forecasting risks
+### assessing risks
 
 ---
 
@@ -123,7 +117,7 @@ passwords? authentication? 2fa?
 
 ---
 
-### authenticaion
+### authentication
 
 ---
 
@@ -131,7 +125,7 @@ verifying identity
 
 @css[ fragment ]( passwords / 2fa / sso / oAuth)
 
-@css[ fragment ]( /wp-admin, /wp-json )
+@css[ fragment ]( /wp-admin, /wp-json, frontend )
 
 ---
 
@@ -145,7 +139,9 @@ verifying identity
 
 updates:  old  = possibly insecure
 
-[stat about the install base of older versions of WordPress before security releases]
+@css[ fragment ]( < 50% of WordPress installs are up to date )
+
+@css[ fragment ]( for plugins, the situation is likely worse )
 
 ---
 
@@ -159,7 +155,7 @@ core
 
 ---
 
-### possible symptoms of bad code
+### bad code is vulnerable code
 
 ---
 
@@ -169,74 +165,76 @@ SQL injection
 
 @css[ fragment ]( poor performance )
 
-@css[ fragment ]( excessive surface area )
+---
+
+### data loss, unauthorized access, malware, outage 
 
 ---
 
-### learning more
-
-@css[ fragment ]( mechanics )
-
-@css[ fragment ]( learning to attack = learning to defend )
-
-@css[ fragment ]( OWASP )
-
-@css[ fragment ]( VIP )
+### hardware / networking issues
 
 ---
 
-### hosting/hardware/networking
-
----
-
-transparency & policy
+host transparency & policy
 
 @css[ fragment ]( updated underlying stack -- PHP, nginx/apache ... )
 
 ---
 
-### external threats
+### external threats (robots)
 
 ---
 
-DOS
+DDOS
 
-@css[ fragment ]( proxies/firewalls/hosting providers )
+@css[ fragment ]( Spam )
 
----
-
-### broken human proccesses
+@css[ fragment ]( brute force )
 
 ---
 
-people are oten:  generous, good-natured, careful
+### human error
+
+---
+
+people are often:  generous, good-natured, careful
 
 @css[ fragment ]( people are sometimes:  greedy, evil, careless )
 
 ---
 
-### flavors of broken processes
+### flavors of human error
 
 ---
 
 leaving secret stuff laying around
 
-@css[ fragment ]( human engineering / unvalidated communication / phishing )
+@css[ fragment ]( fraud / human engineering )
+
+@css[ fragment ]( unauthorized disclosure )
+
+@css[ fragment ]( phishing )
 
 ---
 
-## forecasting risks
-## @css[ fragment ]( evaluating risks )
+## likelihood
+## @css[ fragment ]( severity )
 
 ---
 
-organizing and characterizing risks
+### likelihood
+
+some events are orders of magnitude more likely than others
+
+@css[ fragment ]( experience, advice, research, nature of client or project )
+
+@css[ fragment ]( goal: determine rough relative likelihood )
 
 ---
 
-### impact
+### severity
 
-@css[ fragment ]( what exactly happens when things go wrong? )
+what exactly happens when things go wrong?
 
 @css[ fragment ]( what's the worst case scenario? )
 
@@ -248,21 +246,14 @@ organizing and characterizing risks
 
 ---
 
-### likelihood
+### quantifying likelihood and severity
 
-@css[ fragment ]( some events are orders of magnitude more likely than others )
-
-@css[ fragment ]( sources: experience, advice, research )
-
-@css[ fragment ]( nature of the client and project )
-
-@css[ fragment ]( goal: determine rough relative liklihood )
+@css[ fragment ]( scales: binary? ternary? other scale? )
 
 ---
 
-### picking a scale
+<img src="assets/images/scale.png">
 
-@css[ fragment ]( binary? other numeric score? )
 
 ---
 
@@ -274,17 +265,17 @@ organizing and characterizing risks
 
 ---
 
-## example: average VIP client
+## example: a VIP client's WordPress risk matrix
 
 ---
 
-large number of diverse and sensitive clients
+possibly a sensitive or high-profile site
  
-very active and well-resrouced review/security/updates
+@css[ fragment ]( very active and well resourced code review/security/updates )
 
-dedicated systems and security team
+@css[ fragment ]( dedicated systems and security team and owned-to-metal hardware )
 
-control of our own datacenters and network 
+@css[ fragment ]( full control of our own data-centers and network ) 
 
 ---
 
@@ -292,11 +283,9 @@ control of our own datacenters and network
 
 ---
 
-<img src="assets/images/matrix3.png">
+### actionability
 
----
-
-## actionability
+to what extent can I myself control or respond to this kind of risk? 
 
 ---
 
@@ -308,96 +297,74 @@ control of our own datacenters and network
 
 ---
 
-# tiers
+## tiers
 
 1:  identity, human processes
+
 @css[ fragment ]( 2:  code and updates ... actionable, variable severity, but well covered)
 
-@css[ fragment ]( 3:  network/hardware, external threats ... even if severe, less likley and delegated)
+@css[ fragment ]( 3:  network/hardware, external threats ... even if severe, less likely and delegated)
 
 ---
 
-## 2 building a response plan
+## 2 taking action
 
 ---
 
-### ownership
+### reducing severity and likelihood
 
-- set your own policy
-- dependency awareness (list of plugins / themes / tools)
+@css[ fragment ]( severity: improved disaster recovery, backups, configuration changes, tighter user permissioning, redundancy )
 
----
-
-example: VIP
+@css[ fragment ]( likelihood:  better identity verification, improved human procedures, code scanning and review, security plugins )
 
 ---
 
-## mitigating risk
+###  make a disaster plan
+
+exactly what to do if something goes wrong
+
+@css[ fragment ]( who is responsible for different sorts of incidents? you? someone else? )
+
+@css[ fragment ]( construct recipes for all likely scenarios including detailed procedures, commands to run, utilities and tools etc. )
+
+@css[ fragment ]( plan to communicate during an incident )
 
 ---
 
-## plan for things to go wrong
+<img src="assets/images/outage.png">
 
 ---
 
-what if
-- roles and actions scenarios
-- emergency vs. routine communication
-- keeping clients / stakeholders informed
+<img src="assets/images/disaster.png">
 
 ---
 
-disaster recovery
+##  emergency toolkit
 
-- identify/eliminate vulnerabilites
-- restore from backup
-- user access
+awareness:  threat matrix and responsibilities
 
----
+@css[ fragment ]( policies: who is responsible for what, how to contact those people )
 
-data loss
+@css[ fragment ]( cleanup procedures for each likely scenario )
 
-backup policy
-
-communication
+@css[ fragment ]( communication plan )
 
 ---
 
-emergency toolkit:
+##  next steps
 
-- awareness:  threat matrix and responsibilities
-- policies: who is responsible for what
-- procedures:  if x then y per scenario (disaster recovery)
-- communication plan
+make your own threat matrix
 
----
+@css[ fragment ]( write down your response procedures and make sure they can survive an outage )
 
-example:  VIP
+@css[ fragment ]( who is responsible for what sort of incident? )
 
----
+@css[ fragment ]( write down a full disaster plan )
 
-VIP threat matrix and responsibilities
+@css[ fragment ]( consider communication -- to users, team, stakeholders )
 
 ---
 
-VIP policies:  outage / response mode
+# that's it!
 
----
-
-VIP procedures example:  cleanup
-
----
-
-communication plan:  example tweets / urgents
-
----
-
-possible next steps:  
-- use the threat matrix tool and start working on identifying responsibilities
-- if/then worksheet
-- publish your procedures
-- communication plan
-
----
-
-VIP is awesome // hiring
+@mattoperry | vip.wordpress.com
