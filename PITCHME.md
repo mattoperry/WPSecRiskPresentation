@@ -94,11 +94,11 @@ passwords? authentication? 2fa?
 
 ---
 
-### not covered
+### not:
 
 @css[ fragment ]( a technical deep-dive )
 
-@css[ fragment ]( tools )
+@css[ fragment ]( a list of tools )
 
 @css[ fragment ]( tips/tricks/etc )
 
