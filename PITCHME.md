@@ -108,7 +108,7 @@ passwords? authentication? 2fa?
 
 ---
 
-verifying identity
+incorrect identity verification
 
 @css[ fragment ]( passwords / 2fa / sso / oAuth)
 
@@ -124,11 +124,11 @@ verifying identity
 
 ---
 
-old = likely insecure
+abandonware = unsupported and probably insecure
 
-@css[ fragment ]( < 50% of WordPress installs are up to date )
+@css[ fragment ]( historically: < 50% of global WordPress installs are up to date )
 
-@css[ fragment ]( for plugins, the situation is likely worse )
+@css[ fragment ]( plugins are worse )
 
 ---
 
