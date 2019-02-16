@@ -55,13 +55,13 @@ passwords? authentication? 2fa?
 
 ---
 
-### fear of everything
-
-### fear of nothing
+@quote[One of the main cyber-risks is to think they don’t exist. The other is to try to treat all potential risks](Stéphane Nappo)
 
 ---
 
-@quote[One of the main cyber-risks is to think they don’t exist. The other is to try to treat all potential risks](Stéphane Nappo)
+### fear of everything
+
+### fear of nothing
 
 ---
 
