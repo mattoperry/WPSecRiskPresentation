@@ -25,19 +25,19 @@
 
 ## media
 
-CBS / NBC / Meredith / NewsCorp / USAT / Postmedia / ESPN / Mother Jones / Think Progress / Grist / DFM
+CBS / NBC / Meredith / NewsCorp / USAT / Postmedia / ESPN / Mother Jones / Think Progress / Grist / DFM ...
 
 ---
 
 ## enterprise
 
-CapGemini / CreditKarma / Santander / Alaska Airlines / Nielsen
+Capgemini / Credit Karma / Santander / Alaska Airlines / Nielsen ...
 
 ---
 
 ## technology
 
-Facebook / Microsoft / Tinder / AirBnB
+Facebook / Microsoft / Tinder / AirBnB ...
 
 ---
 
