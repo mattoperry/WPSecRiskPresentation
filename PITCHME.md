@@ -85,11 +85,6 @@ passwords? authentication? 2fa?
 
 ---
 
-### forecasting / evaluation
-### @css[ fragment ](risk assessment)
-
----
-
 ### risk management & WordPress
 
 ---
