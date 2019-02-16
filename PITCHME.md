@@ -55,7 +55,7 @@ passwords? authentication? 2fa?
 
 @css[ fragment ](external/automated threats)
 
-@css[ fragment ](human procedures?)
+@css[ fragment ](human malfunctions?)
 
 ---
 
@@ -86,7 +86,7 @@ passwords? authentication? 2fa?
 
 ---
 
-### not:
+#### what this talk is not:
 
 @css[ fragment ]( a technical deep-dive )
 
