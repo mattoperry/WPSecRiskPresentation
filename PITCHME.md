@@ -82,7 +82,7 @@ passwords? authentication? 2fa?
 
 ---
 
-#### what this talk is not:
+#### what we won't be covering:
 
 @css[ fragment ]( a technical deep-dive )
 
@@ -92,7 +92,7 @@ passwords? authentication? 2fa?
 
 ---
 
-## parade of horribles
+## what are our risks?
 
 ---
 
@@ -116,7 +116,9 @@ incorrect identity verification
 
 ---
 
-abandonware = unsupported and probably insecure
+abandonware 
+
+@css[ fragment ]( assume that unsupported code is insecure )
 
 @css[ fragment ]( historically: < 50% of global WordPress installs are up to date )
 
