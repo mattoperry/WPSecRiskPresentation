@@ -190,10 +190,6 @@ people are often:  generous, good-natured, careful
 
 ---
 
-### human malfunction
-
----
-
 leaving secret stuff laying around
 
 @css[ fragment ]( sharing secrets unsafely )
