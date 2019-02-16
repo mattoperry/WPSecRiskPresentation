@@ -92,10 +92,6 @@ passwords? authentication? 2fa?
 
 ---
 
-### know what the risks are
-
----
-
 ## parade of horribles
 
 ---
