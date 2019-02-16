@@ -96,7 +96,7 @@ passwords? authentication? 2fa?
 
 ---
 
-### assessing risks
+### know what the risks are
 
 ---
 
