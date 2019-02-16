@@ -298,7 +298,7 @@ to what extent can I myself control or respond to this kind of risk?
 
 ---
 
-## severe, likely, actionable  
+## severe & likely & actionable  
 
 ---
 
