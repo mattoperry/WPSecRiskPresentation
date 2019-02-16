@@ -162,7 +162,15 @@ SQL injection
 
 ---
 
-### data loss, unauthorized access, malware, outage 
+### evil fruit of bad code
+
+@css[ fragment ]( data loss )
+
+@css[ fragment ]( unauthorized access )
+
+@css[ fragment ]( malware )
+
+@css[ fragment ]( outage )
 
 ---
 
