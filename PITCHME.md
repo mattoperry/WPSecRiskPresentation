@@ -33,10 +33,6 @@ Facebook / Microsoft / Tinder / AirBnB ...
 
 ---
 
-## free clients to publish
-
----
-
 ## scaling | security
  
 ---
@@ -142,27 +138,23 @@ core
 
 ---
 
-### bad code is vulnerable code
-
----
-
 SQL injection
 
 @css[ fragment ]( XSS )
 
-@css[ fragment ]( poor performance )
+@css[ fragment ]( exposed poor performance )
 
 ---
 
-### evil fruit of bad code
+### evil results of bad code
 
-@css[ fragment ]( data loss )
+@css[ fragment ]( data loss or theft )
 
 @css[ fragment ]( unauthorized access )
 
-@css[ fragment ]( malware )
-
 @css[ fragment ]( outage )
+
+@css[ fragment ]( malware and misbehavior )
 
 ---
 
@@ -172,9 +164,9 @@ SQL injection
 
 hosting
 
-@css[ fragment ]( transparency & clear policies )
+@css[ fragment ]( lack of transparency and clear security policies )
 
-@css[ fragment ]( updated underlying stack -- PHP, nginx/apache ... )
+@css[ fragment ]( insecure or outdated underlying stack -- PHP, nginx/apache, DBs etc ... )
 
 @css[ fragment ]( certifications )
 
@@ -184,7 +176,7 @@ hosting
 
 ---
 
-(D)DOS / automated exploits / brute force / ...
+(D)DOS / other automated attacks / brute force / ...
 
 @css[ fragment ]( Spam )
 
@@ -200,7 +192,7 @@ people are often:  generous, good-natured, careful
 
 ---
 
-### flavors of human malfunction
+### human malfunction
 
 ---
 
@@ -211,6 +203,10 @@ leaving secret stuff laying around
 @css[ fragment ]( fraud )
 
 @css[ fragment ]( phishing )
+
+---
+
+# !?
 
 ---
 
@@ -237,7 +233,7 @@ what exactly happens when things go wrong?
 
 @css[ fragment ]( sources:  experience, advice, research )
 
-@css[ fragment ]( it's okay not to know! )
+@css[ fragment ]( it's okay not to admit we don't know! )
 
 @css[ fragment ]( goal: determine rough relative severity )
 
@@ -262,11 +258,11 @@ what exactly happens when things go wrong?
 
 ---
 
-## example: a VIP client's WordPress risk matrix
+## example: a VIP's WordPress risk matrix
 
 ---
 
-possibly a sensitive or high-profile site
+possibly a sensitive or high-profile sites
  
 @css[ fragment ]( very active and well resourced code review/security/updates )
 
@@ -282,7 +278,7 @@ possibly a sensitive or high-profile site
 
 ### actionability
 
-to what extent can I myself control or respond to this kind of risk? 
+to what extent can we ourselves control or respond to this kind of risk? 
 
 ---
 
@@ -294,7 +290,7 @@ to what extent can I myself control or respond to this kind of risk?
 
 ---
 
-## tiers
+## priorities
 
 1:  identity, human processes
 
@@ -304,7 +300,7 @@ to what extent can I myself control or respond to this kind of risk?
 
 ---
 
-## 2 taking action
+## taking action
 
 ---
 
@@ -316,15 +312,13 @@ to what extent can I myself control or respond to this kind of risk?
 
 ---
 
-###  make a disaster plan
+###  make a response plan
 
 exactly what to do if something goes wrong
 
 @css[ fragment ]( who is responsible for different sorts of incidents? you? someone else? )
 
 @css[ fragment ]( construct recipes for all likely scenarios including detailed procedures, commands to run, utilities and tools etc. )
-
-@css[ fragment ]( plan to communicate during an incident )
 
 ---
 
@@ -338,11 +332,11 @@ exactly what to do if something goes wrong
 
 ##  emergency toolkit
 
-awareness:  threat matrix and responsibilities
+threat matrix
 
-@css[ fragment ]( policies: who is responsible for what, how to contact those people )
+@css[ fragment ]( who is responsible for what, how to contact those people )
 
-@css[ fragment ]( cleanup procedures for each likely scenario )
+@css[ fragment ]( response plan )
 
 @css[ fragment ]( communication plan )
 
@@ -352,7 +346,7 @@ awareness:  threat matrix and responsibilities
 
 make your own threat matrix
 
-@css[ fragment ]( write down your response procedures and make sure they can survive an outage )
+@css[ fragment ]( write down your response procedures )
 
 @css[ fragment ]( who is responsible for what sort of incident? )
 
