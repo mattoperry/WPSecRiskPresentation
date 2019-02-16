@@ -178,9 +178,13 @@ SQL injection
 
 ---
 
-host transparency & policy
+hosting
+
+@css[ fragment ]( transparency & clear policies )
 
 @css[ fragment ]( updated underlying stack -- PHP, nginx/apache ... )
+
+@css[ fragment ]( certifications )
 
 ---
 
@@ -188,15 +192,13 @@ host transparency & policy
 
 ---
 
-DDOS
+(D)DOS / automated exploits / brute force / ...
 
 @css[ fragment ]( Spam )
 
-@css[ fragment ]( brute force )
-
 ---
 
-### human error
+### human malfunction
 
 ---
 
@@ -206,15 +208,15 @@ people are often:  generous, good-natured, careful
 
 ---
 
-### flavors of human error
+### flavors of human malfunction
 
 ---
 
 leaving secret stuff laying around
 
-@css[ fragment ]( fraud / human engineering )
+@css[ fragment ]( sharing secrets unsafely )
 
-@css[ fragment ]( unauthorized disclosure )
+@css[ fragment ]( fraud )
 
 @css[ fragment ]( phishing )
 
