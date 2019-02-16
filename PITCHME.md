@@ -19,23 +19,15 @@
 
 ---
 
-## who we work with
-
----
-
-## media
+#### media
 
 CBS / NBC / Meredith / NewsCorp / USAT / Postmedia / ESPN / Mother Jones / Think Progress / Grist / DFM ...
 
----
-
-## enterprise
+#### enterprise
 
 Capgemini / Credit Karma / Santander / Alaska Airlines / Nielsen ...
 
----
-
-## technology
+#### technology
 
 Facebook / Microsoft / Tinder / AirBnB ...
 
