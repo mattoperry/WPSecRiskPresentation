@@ -132,7 +132,7 @@ verifying identity
 
 ---
 
-updates:  old  = possibly insecure
+old = likely insecure
 
 @css[ fragment ]( < 50% of WordPress installs are up to date )
 
